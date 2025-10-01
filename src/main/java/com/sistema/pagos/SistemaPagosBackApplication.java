@@ -21,15 +21,15 @@ public class SistemaPagosBackApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SistemaPagosBackApplication.class, args);
-		
+
 	}
-	
+
 	@Bean
 	CommandLineRunner commandLineRunner(EstudianteRepository estudianteRepository, PagoRepository pagoRepository) {
 		return args -> {
 			estudianteRepository.save(Estudiante.builder()
 					.id(UUID.randomUUID().toString())
-					.nombre("Christian")
+					.nombre("Andres")
 					.apellido("Ramirez")
 					.codigo("1234")
 					.programaId("LTA1")
@@ -45,7 +45,7 @@ public class SistemaPagosBackApplication {
 
 			estudianteRepository.save(Estudiante.builder()
 					.id(UUID.randomUUID().toString())
-					.nombre("Julen")
+					.nombre("Nelson")
 					.apellido("Ramirez")
 					.codigo("1256634")
 					.programaId("LTA1")
