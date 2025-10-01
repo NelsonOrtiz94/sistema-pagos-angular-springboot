@@ -30,7 +30,7 @@ public class SistemaPagosBackApplication {
 			estudianteRepository.save(Estudiante.builder()
 					.id(UUID.randomUUID().toString())
 					.nombre("Andres")
-					.apellido("Ramirez")
+					.apellido("Bermeo")
 					.codigo("1234")
 					.programaId("LTA1")
 					.build());
