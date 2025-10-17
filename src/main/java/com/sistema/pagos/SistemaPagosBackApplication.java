@@ -47,7 +47,7 @@ public class SistemaPagosBackApplication {
 					.id(UUID.randomUUID().toString())
 					.nombre("Nicolas")
 					.apellido("Ramirez")
-					.codigo("1256634")
+					.codigo("22445566")
 					.programaId("LTA1")
 					.build());
 
